@@ -3,7 +3,7 @@ body {
   justify-content: space-around;
   flex-wrap: wrap;
   gap: 50px;
-  background-image: url("https://images.pexels.com/photos/413195/pexels-photo-413195.jpeg?cs=srgb&dl=pexels-pixmike-413195.jpg&fm=jpg");
+  background-image: url("https://t4.ftcdn.net/jpg/01/01/78/03/360_F_101780352_I3bDsI4PGZ8hSOYxnknHS1vNp5cWokfw.jpg");
 }
 
 div {
@@ -19,15 +19,17 @@ figure {
   justify-content: space-around;
   flex-wrap: wrap;
   background-color: whitesmoke;
-  border: 6px red solid;
+  border: 15px red groove;
 }
 
 img {
+  background-color: rgb(225, 233, 199);
   width: 300px;
   height: 300px;
   object-fit: cover;
   object-position: top;
-  border: 1px black solid;
+  border: 5px black;
+  border-style: double;
   margin: 0px 20px;
 }
 h2 {

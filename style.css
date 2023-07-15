@@ -27,7 +27,15 @@ img {
   height: 300px;
   object-fit: cover;
   object-position: top;
+  border: 1px black solid;
+  margin: 0px 20px;
+}
+h2 {
+  background-color: red;
+  color: whitesmoke;
+  padding: 10px 40px;
 }
 p {
   color: red;
+
 }

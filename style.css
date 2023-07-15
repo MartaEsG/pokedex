@@ -18,12 +18,14 @@ figure {
   align-items: center;
   justify-content: space-around;
   flex-wrap: wrap;
-  background-color: whitesmoke;
+  background-color: rgb(235, 239, 221);
   border: 15px red groove;
 }
 
 img {
-  background-color: rgb(225, 233, 199);
+  background-size:cover;
+  background-color: whitesmoke;
+  background-image: url("https://img.freepik.com/iconos-gratis/pokebola_318-331350.jpg");
   width: 300px;
   height: 300px;
   object-fit: cover;
@@ -39,5 +41,7 @@ h2 {
 }
 p {
   color: red;
+  font-size: 20px;
+  font-weight: bolder;
 
 }

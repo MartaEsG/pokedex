@@ -1,5 +1,6 @@
 body {
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
   flex-wrap: wrap;
   gap: 50px;
@@ -20,28 +21,81 @@ figure {
   flex-wrap: wrap;
   background-color: rgb(235, 239, 221);
   border: 15px red groove;
+  
 }
 
 img {
   background-size:cover;
   background-color: whitesmoke;
   background-image: url("https://img.freepik.com/iconos-gratis/pokebola_318-331350.jpg");
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   object-fit: cover;
   object-position: top;
   border: 5px black;
   border-style: double;
   margin: 0px 20px;
 }
+
+.flipCard {
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+.flipCard:hover {
+  transform: rotateY(180deg);
+}
+
+.flipCard-front, .flipCard-back {
+  position: absolute;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.flipCard-back {
+  transform: rotateY(180deg);
+}
+
+
 h2 {
   background-color: red;
   color: whitesmoke;
-  padding: 10px 40px;
+  padding: 10px 0px;
+  text-align: center;
+  width: 250px;
+
+}
+h3 {
+  margin-top: 220px;
 }
 p {
   color: red;
   font-size: 20px;
   font-weight: bolder;
 
+}
+input {
+ height: 20px; 
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+section input {
+  margin-top: 100px
+}
+section h3 {
+  margin-right: 20px;
+  color: whitesmoke;
+  margin-top: 100px
+  
+
+}
+.title {
+  border: none;
+  height: 200%;
+  background-image: none;
+  background-color: transparent;
+  width: 20%;
 }

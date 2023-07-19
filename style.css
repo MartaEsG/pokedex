@@ -81,14 +81,15 @@ section {
   display: flex;
   flex-direction: row;
   justify-content: left;
+  border-bottom: #215c96 solid 10px;
 }
 section input {
-  margin-top: 100px
+  margin-top: 70px
 }
 section h3 {
   margin-right: 20px;
-  color: whitesmoke;
-  margin-top: 100px
+  color:  #ffcc01;
+  margin-top: 70px;
   
 
 }
